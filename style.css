@@ -90,6 +90,57 @@ div {
     padding: 32px;
 }
 
+<<<<<<< HEAD
 .margin-bottom{
     margin-bottom: 8px;
 }  
+=======
+.second-child-fat {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.third-child {
+    display: flex;
+    gap: 1px;
+}
+.third-child1 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 20px 0px 10px 0px;
+    row-gap: 15px;
+
+}
+
+.third-child2 {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.altezza {
+    height: 40px;
+}
+
+.ul-margin {
+    margin: 0px;
+}
+img {
+    margin: 0px 3px 0px 0px;
+    /* align-items: last baseline; */
+}
+.padding {
+   padding: 0px;
+}
+>>>>>>> 21ff7e7c6a8ff4c1fbcd449401924381c81a4513
