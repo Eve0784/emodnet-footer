@@ -4,143 +4,89 @@
 
 }
 
-html,
-body {
-    font-family: Arial, sans-serif;
+html, body{
     margin: 0px;
     padding: 0px;
 }
 
-div {
-    margin: 0px;
-    padding: 0px;
+div,ul{
     display: flex;
 }
-
-.container {
-    height: 100%;
+.height-800{
+    height: 800px;
+}
+.container{
     background-color: #004494;
 }
 
-.white-link {
-    color: white;
-    text-decoration: none;
-}
-.white-link:hover {
-    text-decoration: underline;
-}
-.color-white {
-    color: white;
-}
-
-.grow-1 {
-    flex-grow: 1;
-}
-
-.grow-2 {
-    flex-grow: 2;
-}
-
-.justify-center {
+.justify-center{
     justify-content: center;
 }
 
-.column {
+.divider{
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.column{
     flex-direction: column;
 }
-
-.row {
-    flex-direction: row;
+.grow-2 {
+    flex-basis: 0;
+    flex-grow: 2;
 }
 
-.margin-0 {
-    margin: 0px;
+.grow-1{
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
-.height-800 {
-    height: 800px;
+.color-white{
+    color: white;
 }
-
-.max-width {
-    max-width: 1100px;
-}
-
-.min-width-334 {
-    min-width: 334px;
-}
-
-.divider {
-    height: 2px;
-    background-color: rgba(255, 255, 255, 0.445);
-}
-.gap-row-16 {
+.gap-row-16{
     row-gap: 16px;
 }
-.gap-row-32 {
+.gap-row-32{
     row-gap: 32px;
-}
-.gap-column-16{
-    column-gap: 16px;
 }
 .gap-row-8{
     row-gap: 8px;
 }
-
+.gap-column-16{
+    column-gap: 16px;
+}
+.margin-0{
+    margin: 0px;
+}
 .padding-32{
     padding: 32px;
 }
-
-<<<<<<< HEAD
-.margin-bottom{
-    margin-bottom: 8px;
-}  
-=======
-.second-child-fat {
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    gap: 25px;
-}
-
-.third-child {
-    display: flex;
-    gap: 1px;
-}
-.third-child1 {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin: 20px 0px 10px 0px;
-    row-gap: 15px;
-
-}
-
-.third-child2 {
-    display: flex;
-    flex-direction: column;
-}
-
-a {
+.white-link{
     color: white;
     text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    font-size: 13px;
+}
+.white-link:hover{
+    text-decoration: underline;
+}
+.margin-bottom{
+    margin-bottom: 8px;
+} 
+.max-width{
+    max-width: 1100px;
 }
 
-.altezza {
-    height: 40px;
+.min-width-334{
+    min-width: 334px;
+}
+.font-1-5{
+    font-size:1.5em;
 }
 
-.ul-margin {
-    margin: 0px;
+.font-1-2{
+    font-size:1.2em ;
 }
-img {
-    margin: 0px 3px 0px 0px;
-    /* align-items: last baseline; */
-}
-.padding {
-   padding: 0px;
-}
->>>>>>> 21ff7e7c6a8ff4c1fbcd449401924381c81a4513
+
+
+/* .wrap{
+    flex-wrap: wrap;
+}   */
